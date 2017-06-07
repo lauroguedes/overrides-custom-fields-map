@@ -235,7 +235,7 @@ jimport('joomla.html.html.bootstrap');
 	$document = JFactory::getDocument();
 
 	// Implementação da API
-	$apiKey = 'AIzaSyCqMvo67hjHbUGE_Btth72LulwSIAMmAz4';
+	$apiKey = '<SUA API KEY>';
 	$document->addScript('https://maps.googleapis.com/maps/api/js?key='.$apiKey.'&callback=initMap',[], ['async' => 'async','defer' => 'defer']);
 	$document->addScriptDeclaration('
       function initMap() {
